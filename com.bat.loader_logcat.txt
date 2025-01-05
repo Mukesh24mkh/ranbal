@@ -1,0 +1,136 @@
+--------- beginning of main
+01-05 10:23:25.340 16204 16204 I libc    : SetHeapTaggingLevel: tag level set to 0
+01-05 10:23:25.346 16204 16204 I at.loader:black: Using CollectorTypeCMC GC.
+01-05 10:23:25.351 16204 16204 E at.loader:black: Not starting debugger since process cannot load the jdwp agent.
+01-05 10:23:25.353 16204 16204 D nativeloader: Load libframework-connectivity-tiramisu-jni.so using APEX ns com_android_tethering for caller /apex/com.android.tethering/javalib/framework-connectivity-t.jar: ok
+01-05 10:23:25.357 16204 16204 W ziparchive: Unable to open '/system_ext/framework/unisoc-framework.dm': No such file or directory
+01-05 10:23:25.357 16204 16204 W ziparchive: Unable to open '/system_ext/framework/unisoc-framework.dm': No such file or directory
+01-05 10:23:25.373 16204 16204 D CompatibilityChangeReporter: Compat change id reported: 171979766; UID 10184; state: DISABLED
+01-05 10:23:25.376 16204 16218 E at.loader:black: Could not write anonymous vdex /system_ext/framework/oat/arm64/unisoc-framework.vdex: Could not open /system_ext/framework/oat/arm64/unisoc-framework.vdex for writing
+01-05 10:23:25.378 16204 16204 D ApplicationLoaders: Returning zygote-cached class loader: /system/framework/android.test.base.jar
+01-05 10:23:25.383 16204 16204 D nativeloader: Configuring clns-4 for other apk /data/app/~~d6-renNJ4Kw40Zxi4JM8fw==/com.bat.loader-MV1J1sKmT356aOA3MbCqAQ==/base.apk. target_sdk_version=29, uses_libraries=, library_path=/data/app/~~d6-renNJ4Kw40Zxi4JM8fw==/com.bat.loader-MV1J1sKmT356aOA3MbCqAQ==/lib/arm64:/data/app/~~d6-renNJ4Kw40Zxi4JM8fw==/com.bat.loader-MV1J1sKmT356aOA3MbCqAQ==/base.apk!/lib/arm64-v8a, permitted_path=/data:/mnt/expand:/data/user/0/com.bat.loader
+01-05 10:23:25.389 16204 16204 D nativeloader: Load libframework-connectivity-jni.so using APEX ns com_android_tethering for caller /apex/com.android.tethering/javalib/framework-connectivity.jar: ok
+01-05 10:23:25.385 16215 16215 W logcat  : type=1400 audit(0.0:71064): avc: denied { ioctl } for path="/storage/emulated/0/Download/com.bat.loader_logcat.txt" dev="fuse" ino=309126 ioctlcmd=0xf50d scontext=u:r:untrusted_app_29:s0:c184,c256,c512,c768 tcontext=u:object_r:fuse:s0 tclass=file permissive=0 app=com.bat.loader
+01-05 10:23:25.391 16204 16204 V GraphicsEnvironment: ANGLE Developer option for 'com.bat.loader' set to: 'default'
+01-05 10:23:25.392 16204 16204 V GraphicsEnvironment: ANGLE GameManagerService for com.bat.loader: false
+01-05 10:23:25.392 16204 16204 V GraphicsEnvironment: Neither updatable production driver nor prerelease driver is supported.
+01-05 10:23:25.392 16204 16204 D ApplicationPackageManager: hasSystemFeature:name=android.hardware.vulkan.version version=4206592 getOpPackageName=com.bat.loader hasSystemFeature=true
+01-05 10:23:25.394 16204 16204 D NetworkSecurityConfig: Using Network Security Config from resource network_security_config debugBuild: false
+01-05 10:23:25.395 16204 16204 D NetworkSecurityConfig: Using Network Security Config from resource network_security_config debugBuild: false
+01-05 10:23:25.410 16204 16204 D HookManager: hook: top.niunaijun.blackbox.fake.service.IContextHubServiceProxy@163ffd3
+01-05 10:23:25.412 16204 16204 D HookManager: hook error: top.niunaijun.blackbox.fake.service.IContextHubServiceProxy@163ffd3
+01-05 10:23:25.412 16204 16204 D HookManager: hook: top.niunaijun.blackbox.fake.service.IJobServiceProxy@c9dfc0e
+01-05 10:23:25.412 16204 16204 D HookManager: hook: top.niunaijun.blackbox.fake.service.IAccountManagerProxy@f61d941
+01-05 10:23:25.413 16204 16204 D HookManager: hook: top.niunaijun.blackbox.fake.service.IActivityManagerProxy@9f6a372
+01-05 10:23:25.416 16204 16204 D HookManager: hook: top.niunaijun.blackbox.fake.service.ILauncherAppsProxy@fc8a83b
+01-05 10:23:25.417 16204 16204 D HookManager: hook: top.niunaijun.blackbox.fake.service.IVpnManagerProxy@5e64504
+01-05 10:23:25.427 16204 16204 D HookManager: hook: top.niunaijun.blackbox.fake.service.IWifiManagerProxy@c7628e9
+01-05 10:23:25.433 16204 16204 D HookManager: hook: top.niunaijun.blackbox.fake.service.ISystemUpdateProxy@edcde7a
+01-05 10:23:25.434 16204 16204 D HookManager: hook error: top.niunaijun.blackbox.fake.service.ISystemUpdateProxy@edcde7a
+01-05 10:23:25.434 16204 16204 D HookManager: hook: top.niunaijun.blackbox.fake.service.IAppOpsManagerProxy@e210c21
+01-05 10:23:25.437 16204 16204 D HookManager: hook: top.niunaijun.blackbox.fake.service.IFingerprintManagerProxy@a1652a0
+01-05 10:23:25.438 16204 16204 D HookManager: hook: top.niunaijun.blackbox.fake.service.context.ContentServiceStub@2d94715
+01-05 10:23:25.439 16204 16204 D HookManager: hook: top.niunaijun.blackbox.fake.service.HCallbackProxy@2a36ef6
+01-05 10:23:25.440 16204 16204 D HookManager: hook: top.niunaijun.blackbox.fake.service.IPhoneSubInfoProxy@873793
+01-05 10:23:25.441 16204 16204 D HookManager: hook: top.niunaijun.blackbox.fake.service.IDeviceIdentifiersPolicyProxy@63566ce
+01-05 10:23:25.441 16204 16204 D HookManager: hook: top.niunaijun.blackbox.fake.delegate.AppInstrumentation@edc060b
+01-05 10:23:25.442 16204 16204 D HookManager: hook: top.niunaijun.blackbox.fake.service.IWifiScannerProxy@5081ce8
+01-05 10:23:25.442 16204 16204 D HookManager: hook error: top.niunaijun.blackbox.fake.service.IWifiScannerProxy@5081ce8
+01-05 10:23:25.442 16204 16204 D HookManager: hook: top.niunaijun.blackbox.fake.service.IUserManagerProxy@b32f01
+01-05 10:23:25.443 16204 16204 D HookManager: hook: top.niunaijun.blackbox.fake.service.IActivityClientProxy@8361232
+01-05 10:23:25.445 16204 16204 D HookManager: hook: top.niunaijun.blackbox.fake.service.IPersistentDataBlockServiceProxy@9fbf3f5
+01-05 10:23:25.448 16204 16204 D HookManager: hook error: top.niunaijun.blackbox.fake.service.IPersistentDataBlockServiceProxy@9fbf3f5
+01-05 10:23:25.448 16204 16204 D HookManager: hook: top.niunaijun.blackbox.fake.service.IAppWidgetManagerProxy@bf09018
+01-05 10:23:25.450 16204 16204 D HookManager: hook: top.niunaijun.blackbox.fake.service.context.RestrictionsManagerStub@59bacad
+01-05 10:23:25.451 16204 16204 D HookManager: hook: top.niunaijun.blackbox.fake.service.IWindowManagerProxy@420642e
+01-05 10:23:25.455 16204 16204 D HookManager: hook: top.niunaijun.blackbox.fake.service.IConnectivityManagerProxy@b5041e1
+01-05 10:23:25.458 16204 16204 D HookManager: hook: top.niunaijun.blackbox.fake.service.libcore.OsStub@bd29192
+01-05 10:23:25.459 16204 16204 D HookManager: hook: top.niunaijun.blackbox.fake.service.IAlarmManagerProxy@a164c19
+01-05 10:23:25.459 16204 16204 D HookManager: hook: top.niunaijun.blackbox.fake.service.IShortcutManagerProxy@91ac0ea
+01-05 10:23:25.461 16204 16204 D HookManager: hook: top.niunaijun.blackbox.fake.service.IDevicePolicyManagerProxy@765eb7
+01-05 10:23:25.465 16204 16204 D HookManager: hook: top.niunaijun.blackbox.fake.service.ILocationManagerProxy@299a090
+01-05 10:23:25.467 16204 16204 D HookManager: hook: top.niunaijun.blackbox.fake.service.IStorageStatsManagerProxy@bfe5945
+01-05 10:23:25.468 16204 16204 D HookManager: hook: top.niunaijun.blackbox.fake.service.IPermissionManagerProxy@dc64466
+01-05 10:23:25.469 16204 16204 D HookManager: hook: top.niunaijun.blackbox.fake.service.IPowerManagerProxy@6d7caf9
+01-05 10:23:25.470 16204 16204 D HookManager: hook: top.niunaijun.blackbox.fake.service.IMediaRouterServiceProxy@9c4fc4a
+01-05 10:23:25.471 16204 16204 D HookManager: hook: top.niunaijun.blackbox.fake.service.IMediaSessionManagerProxy@1198497
+01-05 10:23:25.472 16204 16204 D HookManager: hook: top.niunaijun.blackbox.fake.service.IVibratorServiceProxy@e00a6f0
+01-05 10:23:25.473 16204 16204 D HookManager: hook: top.niunaijun.blackbox.fake.service.IStorageManagerProxy@fb5de25
+01-05 10:23:25.473 16204 16204 D HookManager: hook: top.niunaijun.blackbox.fake.service.IAutofillManagerProxy@ebfedc6
+01-05 10:23:25.474 16204 16204 D HookManager: hook: top.niunaijun.blackbox.fake.service.INotificationManagerProxy@102acdd
+01-05 10:23:25.475 16204 16204 D HookManager: hook: top.niunaijun.blackbox.fake.service.IDisplayManagerProxy@cc3ac20
+01-05 10:23:25.477 16204 16204 D HookManager: hook: top.niunaijun.blackbox.fake.service.IActivityTaskManagerProxy@1ee1f9b
+01-05 10:23:25.480 16204 16204 D HookManager: hook: top.niunaijun.blackbox.fake.service.INetworkManagementServiceProxy@aa4202
+01-05 10:23:25.480 16204 16204 D HookManager: hook: top.niunaijun.blackbox.fake.service.ITelephonyManagerProxy@20ee16f
+01-05 10:23:25.487 16204 16204 D HookManager: hook: top.niunaijun.blackbox.fake.service.IAccessibilityManagerProxy@66c8668
+01-05 10:23:25.487 16204 16204 D HookManager: hook: top.niunaijun.blackbox.fake.service.ITelephonyRegistryProxy@9e7bb03
+01-05 10:23:25.488 16204 16204 D HookManager: hook: top.niunaijun.blackbox.fake.service.IPackageManagerProxy@45dfeac
+01-05 10:23:25.490 16204 16204 D HookManager: hook: top.niunaijun.blackbox.fake.service.IGraphicsStatsProxy@e7b877b
+01-05 10:23:25.519 16204 16204 D Settings: loaded Package: com.pubg.imobile
+01-05 10:23:25.521 16204 16204 D BroadcastManager: register: com.pubg.imobile, size: 16
+--------- beginning of system
+01-05 10:23:25.538 16204 16204 D ActivityThread: Loading provider com.bat.loader.blackbox.SystemCallProvider: top.niunaijun.blackbox.core.system.SystemCallProvider
+01-05 10:23:25.538 16204 16204 D SystemCallProvider: call: VM, Bundle[{_B_|_server_name_=package_manager}]
+01-05 10:23:25.538 16204 16204 D BlackBoxCore: getService: package_manager, top.niunaijun.blackbox.core.system.pm.BPackageManagerService@af2c0c2
+01-05 10:23:25.546 16204 16221 D SystemCallProvider: call: VM, Bundle[mParcelledData.dataSize=88]
+01-05 10:23:25.546 16185 16185 D BlackBoxCore: getService: activity_manager, android.os.BinderProxy@7b28780
+01-05 10:23:25.547 16204 16221 D SystemCallProvider: call: VM, Bundle[mParcelledData.dataSize=76]
+01-05 10:23:25.547 16185 16185 D BlackBoxCore: getService: job_manager, android.os.BinderProxy@94ce1b9
+01-05 10:23:25.547 16204 16221 D SystemCallProvider: call: VM, Bundle[mParcelledData.dataSize=84]
+01-05 10:23:25.547 16185 16185 D BlackBoxCore: getService: package_manager, android.os.BinderProxy@98a9fe
+01-05 10:23:25.547 16204 16221 D SystemCallProvider: call: VM, Bundle[mParcelledData.dataSize=84]
+01-05 10:23:25.548 16185 16185 D BlackBoxCore: getService: storage_manager, android.os.BinderProxy@d3ff55f
+01-05 10:23:25.548 16204 16221 D SystemCallProvider: call: VM, Bundle[mParcelledData.dataSize=80]
+01-05 10:23:25.548 16185 16185 D BlackBoxCore: getService: user_manager, android.os.BinderProxy@7789bac
+01-05 10:23:25.548 16204 16221 D SystemCallProvider: call: VM, Bundle[mParcelledData.dataSize=84]
+01-05 10:23:25.548 16185 16185 D BlackBoxCore: getService: xposed_manager, android.os.BinderProxy@d0e075
+01-05 10:23:25.548 16204 16221 D SystemCallProvider: call: VM, Bundle[mParcelledData.dataSize=84]
+01-05 10:23:25.549 16185 16185 D BlackBoxCore: getService: account_manager, android.os.BinderProxy@cd1680a
+01-05 10:23:25.549 16204 16221 D SystemCallProvider: call: VM, Bundle[mParcelledData.dataSize=88]
+01-05 10:23:25.549 16185 16185 D BlackBoxCore: getService: location_manager, android.os.BinderProxy@498887b
+01-05 10:23:25.549 16204 16221 D SystemCallProvider: call: VM, Bundle[mParcelledData.dataSize=96]
+01-05 10:23:25.549 16185 16185 D BlackBoxCore: getService: notification_manager, android.os.BinderProxy@8a9c698
+01-05 10:23:25.549 16185 16185 W CheckTime: App running slow: Executing handleBindApplication : callApplicationOnCreate took 246ms
+01-05 10:23:25.556 16204 16204 I DaemonService: DaemonInnerService -> onCreate
+01-05 10:23:25.556 16204 16204 I DaemonService: DaemonInnerService -> onStartCommand
+01-05 10:23:25.558 16204 16204 I DaemonService: DaemonInnerService -> onDestroy
+01-05 10:23:25.569 16185 16185 D nativeloader: Load /data/app/~~d6-renNJ4Kw40Zxi4JM8fw==/com.bat.loader-MV1J1sKmT356aOA3MbCqAQ==/lib/arm64/libBat-Loader.so using ns clns-4 from class loader (caller=base.apk): ok
+01-05 10:23:25.565 16185 16185 W com.bat.loader: type=1400 audit(0.0:71065): avc: denied { read } for name="version" dev="proc" ino=4026532016 scontext=u:r:untrusted_app_29:s0:c184,c256,c512,c768 tcontext=u:object_r:proc_version:s0 tclass=file permissive=0 app=com.bat.loader
+01-05 10:23:25.565 16185 16185 W com.bat.loader: type=1400 audit(0.0:71066): avc: denied { search } for name="net" dev="sysfs" ino=15145 scontext=u:r:untrusted_app_29:s0:c184,c256,c512,c768 tcontext=u:object_r:sysfs_net:s0 tclass=dir permissive=0 app=com.bat.loader
+01-05 10:23:25.565 16185 16185 W com.bat.loader: type=1400 audit(0.0:71067): avc: denied { search } for name="net" dev="sysfs" ino=15145 scontext=u:r:untrusted_app_29:s0:c184,c256,c512,c768 tcontext=u:object_r:sysfs_net:s0 tclass=dir permissive=0 app=com.bat.loader
+01-05 10:23:25.676 16185 16185 D AppCompatDelegate: Checking for metadata for AppLocalesMetadataHolderService : Service not found
+01-05 10:23:25.682 16185 16185 D ApplicationPackageManager: hasSystemFeature:name=android.software.picture_in_picture version=0 getOpPackageName=com.bat.loader hasSystemFeature=true
+01-05 10:23:25.752 16185 16185 D CompatibilityChangeReporter: Compat change id reported: 210923482; UID 10184; state: DISABLED
+01-05 10:23:25.753 16185 16185 D CompatibilityChangeReporter: Compat change id reported: 37756858; UID 10184; state: ENABLED
+01-05 10:23:25.785 16185 16185 D CompatibilityChangeReporter: Compat change id reported: 171228096; UID 10184; state: ENABLED
+01-05 10:23:25.832 16185 16185 I Choreographer: Skipped 32 frames!  The application may be doing too much work on its main thread.
+01-05 10:23:25.856 16185 16229 D TrafficStats: tagSocket(103) with statsTag=0xffffffff, statsUid=-1
+01-05 10:23:25.877 16185 16246 I mali_gralloc: register: id=0x28a00016c45, importpid=-1
+01-05 10:23:25.878 16185 16246 I mali_gralloc: register: id=0x28a00016c46, importpid=-1
+01-05 10:23:25.879 16185 16246 I mali_gralloc: register: id=0x28a00016c47, importpid=-1
+01-05 10:23:25.880 16185 16246 I mali_gralloc: register: id=0x28a00016c48, importpid=-1
+01-05 10:23:25.893 16185 16222 W Parcel  : Expecting binder but got null!
+01-05 10:23:25.909 16185 16249 I mali_gralloc: register: id=0x28a00016c49, importpid=-1
+01-05 10:23:25.911 16185 16249 I mali_gralloc: register: id=0x28a00016c4a, importpid=-1
+01-05 10:23:25.931 16185 16249 I mali_gralloc: register: id=0x28a00016c4b, importpid=-1
+01-05 10:23:25.931 16185 16222 W Parcel  : Expecting binder but got null!
+01-05 10:23:25.933 16185 16249 I mali_gralloc: register: id=0x28a00016c4c, importpid=-1
+01-05 10:23:26.174 16185 16222 I mali_gralloc: unregister: id=0x28a00016c47, base=0x0, importpid=16185
+01-05 10:23:26.174 16185 16222 I mali_gralloc: unregister: id=0x28a00016c46, base=0x0, importpid=16185
+01-05 10:23:26.174 16185 16222 I mali_gralloc: unregister: id=0x28a00016c45, base=0x0, importpid=16185
+01-05 10:23:26.175 16185 16185 I mali_gralloc: unregister: id=0x28a00016c48, base=0x0, importpid=16185
+01-05 10:23:26.228 16185 16185 W ziparchive: Unable to open '/system_ext/framework/unipnp-framework.dm': No such file or directory
+01-05 10:23:26.228 16185 16185 W ziparchive: Unable to open '/system_ext/framework/unipnp-framework.dm': No such file or directory
+01-05 10:23:27.132 16185 16262 I mali_gralloc: register: id=0x28a00016c4d, importpid=-1
+01-05 10:23:27.133 16185 16262 I mali_gralloc: register: id=0x28a00016c4e, importpid=-1
+01-05 10:23:27.134 16185 16262 I mali_gralloc: register: id=0x28a00016c4f, importpid=-1
+01-05 10:23:27.135 16185 16262 I mali_gralloc: register: id=0x28a00016c50, importpid=-1
+01-05 10:23:27.136 16185 16222 W Parcel  : Expecting binder but got null!
+01-05 10:23:29.358 16185 16185 D CompatibilityChangeReporter: Compat change id reported: 147798919; UID 10184; state: DISABLED
+01-05 10:23:29.387 16185 16222 I mali_gralloc: unregister: id=0x28a00016c4f, base=0x0, importpid=16185
+01-05 10:23:29.388 16185 16222 I mali_gralloc: unregister: id=0x28a00016c4e, base=0x0, importpid=16185
+01-05 10:23:29.388 16185 16222 I mali_gralloc: unregister: id=0x28a00016c4d, base=0x0, importpid=16185
+01-05 10:23:29.389 16185 16185 I mali_gralloc: unregister: id=0x28a00016c50, base=0x0, importpid=16185
+01-05 10:23:29.444 16185 16264 I mali_gralloc: register: id=0x28a00016c51, importpid=-1
+01-05 10:23:29.445 16185 16264 I mali_gralloc: register: id=0x28a00016c52, importpid=-1
+01-05 10:23:29.445 16185 16264 I mali_gralloc: register: id=0x28
